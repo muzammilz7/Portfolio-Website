@@ -159,7 +159,7 @@ h3 {
 }
 
 .about_sec_info {
-  text-align: center;
+  padding-left: 0;
 }
 
 .about_pic {
@@ -274,8 +274,10 @@ h3 {
   padding: 30px; 
   display: grid;
   gap: 30px; 
+  justify-content: center; 
+  align-items: center;
   grid-template-columns: repeat(4, 1fr);
-  justify-content: center;
+
 }
 
 .about_hero ul {
@@ -348,6 +350,12 @@ h3 {
     padding: 8px;
     border-radius: 10px;
     margin: 8px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .about_sec_info {
+    padding-left: 0; 
   }
 }
 
