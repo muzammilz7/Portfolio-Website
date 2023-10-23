@@ -31,7 +31,7 @@ export default function About() {
           <div className="about_hero">
             <h1 className="about_content">About Me</h1>
             <p className="about_par">
-           
+           1
             </p>
             <h2 className="about_interests">Interests:</h2>
             <ul className="about_skills">

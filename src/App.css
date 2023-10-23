@@ -60,6 +60,8 @@ h3 {
 
 .hero_sec_class {
   /* background-color: #1F2833; */
+  padding-left: 30px;
+  padding-right: 30px;
   display: grid;
   padding: 20px 0;
   align-items: center;
