@@ -31,8 +31,7 @@ export default function About() {
           <div className="about_hero">
             <h1 className="about_content">About Me</h1>
             <p className="about_par">
-            I'm a dedicated Software Developer with a strong passion for web development and cybersecurity. I thrive on crafting user-friendly web applications and enhancing digital security. 
-            My journey involves continuous learning and exploration to make the digital world safer and more accessible. 
+           
             </p>
             <h2 className="about_interests">Interests:</h2>
             <ul className="about_skills">
