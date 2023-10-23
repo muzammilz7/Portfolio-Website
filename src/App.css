@@ -17,20 +17,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
-@media (max-width: 768px) {
-  h1 {
-    font-size: 36px;
-    line-height: 40px;
-  }
-  h2 {
-    font-size: 28px;
-    line-height: 32px;
-  }
-  h3 {
-    font-size: 18px;
-    line-height: 24px;
-  }
-}
+
 
 
 .section {
