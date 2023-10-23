@@ -8,7 +8,7 @@ function Footer() {
           <img src="/linkedinLogo.png" alt="LinkedIn" />
         </a>
         <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer">
-          <img src="githubLogo.png" alt="GitHub" />
+          <img src="/GithubLogo.png" alt="GitHub" />
         </a>
       </div>
       <p>&copy; 2023 Muzammil Zaman</p>
