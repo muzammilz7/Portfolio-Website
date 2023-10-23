@@ -160,13 +160,6 @@ h3 {
   }
 }
 
-.about_sec_info {
-  padding-left: 0;
-}
-
-.about_pic {
-  align-self: flex-end;
-}
 
 
 .Navbar {
@@ -251,6 +244,15 @@ h3 {
   }
 }
 
+.about_sec_info {
+  padding-left: 0;
+}
+
+.about_pic {
+  align-self: flex-end;
+}
+
+
 .about_pic > img {
   width: 100%;
   height: 100%;
@@ -273,13 +275,13 @@ h3 {
 }
 
 .about_class {
-  padding: 30px; 
+  padding-left: 40px;
   display: grid;
-  gap: 30px; 
-  justify-content: center; 
-  align-items: center;
-  grid-template-columns: repeat(4, 1fr);
-
+  padding: 133.3px 85.3px;
+  gap: 114.6px;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: start;
+  padding-right: 40px;
 }
 
 .about_hero ul {
@@ -287,8 +289,8 @@ h3 {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr); 
-  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
 }
 
 .about_hero li {
@@ -355,11 +357,6 @@ h3 {
   }
 }
 
-@media (max-width: 768px) {
-  .about_sec_info {
-    padding-left: 0; 
-  }
-}
 
 .projects_sec {
   /* background-color: #1F2833; */
