@@ -1,5 +1,8 @@
+import React from "react";
+
 export default function Hero() {
   return (
+    
     <section id="hero_sec" className="hero_sec_class">
       <div className="hero_content">
         <div className="hero_content_two">

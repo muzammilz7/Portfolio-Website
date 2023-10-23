@@ -4,6 +4,7 @@ import Project from "./Projects"
 import Experience from "./Experience"
 import Footer from "./Footer"
 
+
 export default function IHome() {
     return (
       <>
@@ -12,6 +13,8 @@ export default function IHome() {
         <Project />
         <Experience />
         <Footer />
+
+  
       </>
     );
   }

@@ -38,22 +38,24 @@ h1, h2, h3, h4, h5, h6, p {
 
 .hero_sec_class {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
   gap: 16px;
   align-items: center;
   justify-content: center;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 }
+
+
+
 
 @media (max-width: 768px) {
   .hero_sec_class {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
 }
+
 
 .hero_title {
   text-align: center;
@@ -70,9 +72,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .hero_image > img {
-  width: 100%;
-  height: auto;
   max-width: 100%;
+  height: auto;
   border-radius: 10px;
   opacity: 0;
   width: 85%;
@@ -80,11 +81,12 @@ h1, h2, h3, h4, h5, h6, p {
   animation: fadeIn 1.5s ease forwards;
 }
 
-.hero_content, .hero_content_two {
+.hero_content,
+.hero_content_two {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  padding-top: 50px;
+  padding-top: 0; 
 }
 
 .hero_title_sec {
@@ -142,6 +144,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .Navbar {
+  padding: 15px 10px;
   position: fixed;
   top: 0;
   left: 0;
