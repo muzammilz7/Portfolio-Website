@@ -4,12 +4,27 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: #0b0c10;
   color: #C5C6C7;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding: 10px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
+}
+
+@media (max-width: 768px) {
+
+  body {
+    padding: 10px; 
+  }
+
+  .hero_sec_class {
+    grid-template-columns: 1fr; 
+  }
+
+  .hero_image > img {
+    width: 100%; 
+    height: auto;
+  }
 }
 
 h1 {
