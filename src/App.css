@@ -32,15 +32,40 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 
+
+.section {
+  padding: 0 30px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
 .hero_sec_class {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding: 20px 0;
   align-items: center;
   justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (max-width: 768px) {
+  .hero_sec_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .hero_title {
@@ -63,7 +88,6 @@ h1, h2, h3, h4, h5, h6, p {
   max-width: 100%;
   border-radius: 10px;
   opacity: 0;
-  padding-left: 40px;
   width: 85%;
   height: auto;
   animation: fadeIn 1.5s ease forwards;
@@ -74,7 +98,6 @@ h1, h2, h3, h4, h5, h6, p {
   flex-direction: column;
   gap: 32px;
   padding-top: 50px;
-  padding-left: 40px;
 }
 
 .hero_title_sec {
@@ -101,8 +124,6 @@ h1, h2, h3, h4, h5, h6, p {
   gap: 20px;
   align-items: center;
   justify-content: flex-end;
-  margin-top: 20px;
-  padding-left: 275px;
 }
 
 .hero_buttons a {
@@ -141,7 +162,7 @@ h1, h2, h3, h4, h5, h6, p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 85px;
+  padding: 15px 30px; 
   background: #0b0c10;
   box-shadow: 0px 5px 75px 0 rgba(0, 0, 0, 0.1);
   z-index: 999;
@@ -187,7 +208,7 @@ h1, h2, h3, h4, h5, h6, p {
 @media (max-width: 768px) {
   .Navbar {
     justify-content: space-between;
-    padding: 10px;
+    padding: 15px 30px; 
   }
   .navbar_items {
     justify-content: flex-end;
@@ -233,13 +254,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .about_class {
-  padding-left: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
   display: grid;
-  padding: 133.3px 85.3px;
-  gap: 114.6px;
+  gap: 16px;
   grid-template-columns: repeat(2, 1fr);
   align-items: start;
-  padding-right: 40px;
 }
 
 .about_hero ul {
@@ -264,7 +284,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media (max-width: 768px) {
   .about_class {
-    padding: 30px;
+    padding-left: 15px;
+    padding-right: 15px; 
   }
   .about_hero ul {
     grid-template-columns: repeat(4, 1fr);
