@@ -558,3 +558,12 @@ h3 {
   }
 }
 
+@media (max-width: 768px) {
+  .about_class,
+  .experience-details,
+  .hero_sec_class,
+  .project_info {
+    justify-content: center;
+  }
+}
+
