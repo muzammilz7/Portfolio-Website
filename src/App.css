@@ -7,7 +7,7 @@ body {
   padding: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 420px) {
   body {
     padding: 10px;
   }
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6, p {
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 420px) {
   .section {
     padding: 0 20px;
     display: flex;
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0 15px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 420px) {
   .hero_sec_class {
     display: flex;
     flex-direction: column;
@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6, p {
   height: 40px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 420px) {
   .Navbar {
     justify-content: space between;
     padding: 15px 30px; 
@@ -268,7 +268,7 @@ h1, h2, h3, h4, h5, h6, p {
   background: #1F2833;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 420px) {
   .about_class {
     padding-left: 15px;
     padding-right: 15px; 
@@ -357,7 +357,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin-right: 8px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 420px) {
   .project_info {
     grid-template-columns: 1fr;
     padding: 20px;
@@ -440,7 +440,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 16px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 420px) {
   .experience-entry {
     width: calc(50% - 20px);
   }
@@ -471,7 +471,7 @@ h1, h2, h3, h4, h5, h6, p {
   gap: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 420px) {
   .Footer {
     flex-direction: column;
     align-items: center;
