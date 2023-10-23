@@ -14,17 +14,35 @@ h1, h2, h3, h4, h5, h6, p {
 @media (max-width: 768px) {
 
   body {
-    padding: 10px; 
+    padding: 10px;
   }
 
   .hero_sec_class {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+
+  .hero_title {
+    text-align: center;
+    font-style: normal;
+    top: 0;
+    color: #C5C6C7;
+    font-size: 21px;
+    font-weight: 600;
+    display: flex;
+    line-height: 32px;
+    align-items: flex-start;
+    margin: 0 auto; 
+    max-width: 85%;
   }
 
   .hero_image > img {
-    width: 100%; 
+    width: 100%;
     height: auto;
+    max-width: 100%;
   }
+
+
 }
 
 h1 {
