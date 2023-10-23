@@ -271,13 +271,11 @@ h3 {
 }
 
 .about_class {
-  padding-left: 40px;
+  padding: 30px; 
   display: grid;
-  padding: 133.3px 85.3px;
-  gap: 114.6px;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: start;
-  padding-right: 40px;
+  gap: 30px; 
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
 }
 
 .about_hero ul {
@@ -285,8 +283,8 @@ h3 {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-gap: 20px;
 }
 
 .about_hero li {
@@ -558,12 +556,4 @@ h3 {
   }
 }
 
-@media (max-width: 768px) {
-  .about_class,
-  .experience-details,
-  .hero_sec_class,
-  .project_info {
-    justify-content: center;
-  }
-}
 
