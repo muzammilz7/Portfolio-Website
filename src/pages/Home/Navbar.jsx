@@ -80,7 +80,7 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="projects_sec"
+              to="MyPortfolio"
               className="navbar_content"
             >
               Projects
@@ -94,13 +94,26 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="experience-section"
+              to="testimonial"
               className="navbar_content"
             >
               Experience
             </Link>
           </li>
-  
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar_active_content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="contact_sec" // Replace with the ID of your Contact section
+              className="navbar_content"
+            >
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

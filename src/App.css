@@ -11,30 +11,30 @@ body {
   body {
     padding: 10px;
   }
+
+  .section {
+    padding: 0 10px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
-
-
-
 .section {
-  padding: 0 30px;
+  padding: 0 15px;
   text-align: center;
 }
 
 @media (max-width: 768px) {
   .section {
-    padding: 0 30px;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 }
-
 
 .hero_sec_class {
   display: grid;
@@ -45,9 +45,6 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0 15px;
 }
 
-
-
-
 @media (max-width: 768px) {
   .hero_sec_class {
     display: flex;
@@ -55,7 +52,6 @@ h1, h2, h3, h4, h5, h6, p {
     align-items: center;
   }
 }
-
 
 .hero_title {
   text-align: center;
@@ -86,7 +82,7 @@ h1, h2, h3, h4, h5, h6, p {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  padding-top: 0; 
+  padding-top: 0;
 }
 
 .hero_title_sec {
@@ -197,7 +193,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media (max-width: 768px) {
   .Navbar {
-    justify-content: space-between;
+    justify-content: space between;
     padding: 15px 30px; 
   }
   .navbar_items {
