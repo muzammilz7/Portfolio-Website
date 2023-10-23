@@ -29,7 +29,7 @@ export default function About() {
       <section id="about_sec" className="about_class">
         <div className="about_sec_info">
           <div className="about_hero">
-            <h1 className="about_content">About Me</h1>
+            <h1 className="about_content">About Me 1</h1>
             <p className="about_par">
            1
             </p>
