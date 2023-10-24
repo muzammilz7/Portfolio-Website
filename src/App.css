@@ -22,7 +22,8 @@ body {
 
 
 .hero_sec_class {
-
+  padding-left: 40px;
+  padding-right: 40px;
   display: grid;
   padding: 20px 0;
   align-items: center;
