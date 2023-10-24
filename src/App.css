@@ -581,12 +581,18 @@ body {
 }
 
 .Footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   padding: 30px 30px;
   text-align: center;
   color: #C5C6C7;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #0b0c10; 
+  z-index: 999;
 }
 
 .Footer img {

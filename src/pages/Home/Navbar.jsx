@@ -34,9 +34,11 @@ function Navbar() {
 
   return (
     <nav className={`Navbar ${navActive ? "active" : ""}`}>
-      <div className="logo_image_nav">
-        <img src="/logo.png" alt="logoimage" />
-      </div>
+      <Link to="hero_sec" spy={true} smooth={true} offset={-70} duration={500}>
+        <div className="logo_image_nav">
+          <img src="/logo.png" alt="logoimage" />
+        </div>
+      </Link>
       <a className={`hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
         <span className="nav_hamburger_line"></span>
         <span className="nav_hamburger_line"></span>
@@ -52,24 +54,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="hero_sec"
-              className="navbar_con"
-            >
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar_active_content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
               to="about_sec"
               className="navbar_content"
             >
-              About Me
+              About
             </Link>
           </li>
           <li>
@@ -80,7 +68,7 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="MyPortfolio"
+              to="projects_sec"
               className="navbar_content"
             >
               Projects
@@ -94,24 +82,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="testimonial"
+              to="experience-section"
               className="navbar_content"
             >
               Experience
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar_active_content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="contact_sec" // Replace with the ID of your Contact section
-              className="navbar_content"
-            >
-              Contact
             </Link>
           </li>
         </ul>
