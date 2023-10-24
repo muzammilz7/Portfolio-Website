@@ -52,7 +52,7 @@ body {
   }
   
   .hero_image{
-    padding-left: 25px;
+    padding-left: 75px;
   }
 }
 
@@ -641,3 +641,18 @@ body {
     margin-top: 20px;
   }
 }
+
+@media (max-width: 450px) {
+ .projects_sec{
+ 
+  padding-left: 35px;
+ }
+
+ .experience-section{
+  padding-left: 35px;
+ }
+
+
+
+}
+
