@@ -5,6 +5,7 @@ body {
   background-color: #0b0c10;
   color: #C5C6C7;
   padding: 10px;
+  padding-bottom: 100px;
 }
 
 
@@ -13,19 +14,20 @@ body {
   font-style: normal;
   top: 0;
   color: #C5C6C7;
-  font-size: 21px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 500;
   display: flex;
-  line-height: 32px;
+  line-height: 28px;
   align-items: flex-start;
 }
 
 
 .hero_sec_class {
-  padding-left: 40px;
+  padding-left: 40px; 
   padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px; 
   display: grid;
-  padding: 20px 0;
   align-items: center;
   gap: 16px;
   grid-template-columns: repeat(2, 1fr);
@@ -34,14 +36,16 @@ body {
 }
 
 @media (max-width: 768px) {
-  .hero_sec_class {
-    grid-template-columns: 1fr; 
+  
+    .hero_sec_class {
+      grid-template-columns: 1fr;
+      padding: 0 20px;
   }
 
   .hero_content {
-    padding-top: 20px; 
-    padding-left: 20px;
-    text-align: center; 
+    padding: 0 20px; 
+    padding-top: 20px;
+    text-align: center;
   }
 }
 
@@ -64,8 +68,8 @@ body {
 .hero_title_sec {
   align-self: stretch;
   color: #C5C6C7;
-  font-weight: 700;
-  line-height: 90px;
+  font-weight: 600;
+  line-height: 70px;
   font-size: 75px;
 }
 
@@ -77,7 +81,7 @@ body {
   font-weight: 400;
   line-height: 36px;
   color: #C5C6C7;
-  font-size: 24px;
+  font-size: 21px;
 
 }
 
@@ -406,16 +410,15 @@ body {
 @media (max-width: 420px) {
   .about_class {
     padding-left: 15px;
-    padding-right: 15px; 
+    padding-right: 15px;
   }
+  
   .about_hero ul {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr;
   }
+
   .about_hero li {
-    font-size: 14px;
-    padding: 8px;
-    border-radius: 10px;
-    margin: 8px 0;
+    text-align: center;
   }
 }
 
@@ -496,6 +499,23 @@ body {
   .project_info {
     grid-template-columns: 1fr;
     padding: 20px;
+  }
+
+  .experience-section {
+    text-align: center;
+  }
+
+  
+  .experience-details {
+    justify-content: center;
+  }
+
+  .projects_sec {
+    text-align: center;
+  }
+  
+  .project_info {
+    grid-template-columns: 1fr;
   }
 }
 

@@ -31,6 +31,7 @@ export default function Project() {
 
   return (
     <section className="projects_sec">
+    <h2 className="experience-title">Projects</h2>
       <div className="project_info">
         {projects.map((project, index) => (
           <div className="project_box" key={index}>
