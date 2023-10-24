@@ -496,7 +496,7 @@ body {
 @media (max-width: 420px) {
   .project_info {
     grid-template-columns: 1fr;
-    padding: 20px;
+    justify-content: center;
   }
 }
 
@@ -520,6 +520,14 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+  .experience-details {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 
 .experience-entry {
   width: calc(33% - 20px);
