@@ -14,20 +14,19 @@ body {
   font-style: normal;
   top: 0;
   color: #C5C6C7;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 21px;
+  font-weight: 600;
   display: flex;
-  line-height: 28px;
+  line-height: 32px;
   align-items: flex-start;
 }
 
 
 .hero_sec_class {
-  padding-left: 40px; 
+  padding-left: 40px;
   padding-right: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px; 
   display: grid;
+  padding: 20px 0;
   align-items: center;
   gap: 16px;
   grid-template-columns: repeat(2, 1fr);
@@ -36,16 +35,14 @@ body {
 }
 
 @media (max-width: 768px) {
-  
-    .hero_sec_class {
-      grid-template-columns: 1fr;
-      padding: 0 20px;
+  .hero_sec_class {
+    grid-template-columns: 1fr; 
   }
 
   .hero_content {
-    padding: 0 20px; 
-    padding-top: 20px;
-    text-align: center;
+    padding-top: 20px; 
+    padding-left: 20px;
+    text-align: center; 
   }
 }
 
@@ -68,8 +65,8 @@ body {
 .hero_title_sec {
   align-self: stretch;
   color: #C5C6C7;
-  font-weight: 600;
-  line-height: 70px;
+  font-weight: 700;
+  line-height: 90px;
   font-size: 75px;
 }
 
@@ -81,7 +78,7 @@ body {
   font-weight: 400;
   line-height: 36px;
   color: #C5C6C7;
-  font-size: 21px;
+  font-size: 24px;
 
 }
 
@@ -501,13 +498,6 @@ body {
     grid-template-columns: 1fr;
     padding: 20px;
   }
-
-  .experience-section {
-    text-align: center;
-  }
-
-  
-  
 }
 
 .experience-section {
