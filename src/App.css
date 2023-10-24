@@ -410,15 +410,16 @@ body {
 @media (max-width: 420px) {
   .about_class {
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 15px; 
   }
-  
   .about_hero ul {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(4, 1fr);
   }
-
   .about_hero li {
-    text-align: center;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 8px 0;
   }
 }
 
@@ -506,17 +507,7 @@ body {
   }
 
   
-  .experience-details {
-    justify-content: center;
-  }
-
-  .projects_sec {
-    text-align: center;
-  }
   
-  .project_info {
-    grid-template-columns: 1fr;
-  }
 }
 
 .experience-section {
