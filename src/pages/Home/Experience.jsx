@@ -16,8 +16,8 @@ export default function Experience() {
           onMouseEnter={handleImageToggle}
           onMouseLeave={handleImageToggle}
         >
-          <h3 className="experience-position">----</h3>
-          <p className="experience-company">----</p>
+          <h3 className="experience-position">Vice President of Events</h3>
+          <p className="experience-company">Guelph Cyber Security Society</p>
           <p className="experience-date">August 2023 - Present</p>
           <p className="experience-description">
             ---

@@ -36,18 +36,23 @@ body {
 
 @media (max-width: 768px) {
   .hero_sec_class {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
+    background-color: red; 
+    justify-content: center;
   }
 
   .hero_content_two{
-    padding-left: 30px;
-    padding-right: 30px;
+   justify-content: center;
   }
 
   .hero_content {
     padding-top: 20px; 
     padding-left: 20px;
     text-align: center; 
+  }
+  
+  .hero_image{
+    padding-left: 25px;
   }
 }
 
@@ -501,7 +506,8 @@ body {
 @media (max-width: 420px) {
   .project_info {
     grid-template-columns: 1fr;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
   }
 }
 

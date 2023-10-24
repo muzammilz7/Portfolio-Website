@@ -12,8 +12,9 @@ export default function Hero() {
             <br />
           </h1>
           <p className="hero_info">
-          I'm a dedicated Software Developer with a strong passion for web development and cybersecurity. I thrive on crafting user-friendly web applications and enhancing digital security. 
-          My journey involves continuous learning and exploration to make the digital world safer and more accessible. 
+          I am a second-year Computer Science student, deeply committed to academic excellence and technological innovation.
+           With a relentless pursuit of knowledge, I am prepared to explore the transformative potential of technology in 
+           shaping our daily lives.
             <br /> 
           </p>
           <div className="hero_buttons">
