@@ -37,7 +37,7 @@ body {
 @media (max-width: 768px) {
   .hero_sec_class {
     grid-template-columns: 1fr;
-    background-color: red; 
+  
     justify-content: center;
   }
 
@@ -52,7 +52,7 @@ body {
   }
   
   .hero_image{
-    padding-left: 75px;
+    padding-left: 60px;
   }
 }
 
