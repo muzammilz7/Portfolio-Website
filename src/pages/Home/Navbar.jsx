@@ -34,7 +34,7 @@ function Navbar() {
 
   return (
     <nav className={`Navbar ${navActive ? "active" : ""}`}>
-      <Link to="hero_sec" spy={true} smooth={true} offset={-70} duration={500}>
+      <Link to="hero_sec" spy={true} smooth={true} offset={-70} duration={500} href="#">
         <div className="logo_image_nav">
           <img src="/logo.png" alt="logoimage" />
         </div>
@@ -56,6 +56,7 @@ function Navbar() {
               duration={500}
               to="about_sec"
               className="navbar_content"
+              href="#about_sec"
             >
               About
             </Link>
@@ -70,6 +71,7 @@ function Navbar() {
               duration={500}
               to="projects_sec"
               className="navbar_content"
+              href="#projects_sec"
             >
               Projects
             </Link>
@@ -84,6 +86,7 @@ function Navbar() {
               duration={500}
               to="experience-section"
               className="navbar_content"
+              href="#experience-section"
             >
               Experience
             </Link>
