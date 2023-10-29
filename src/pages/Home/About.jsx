@@ -48,7 +48,7 @@ export default function About() {
             </ul>
           </div>
           <div className="about_pic">
-            <img src="/imagemeeting.png" alt="logoimage" />
+            <img src="/images/imagemeeting.png" alt="logoimage" />
           </div>
         </div>
       </section>

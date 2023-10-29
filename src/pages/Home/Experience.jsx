@@ -20,11 +20,12 @@ export default function Experience() {
           <p className="experience-company">Guelph Cyber Security Society</p>
           <p className="experience-date">August 2023 - Present</p>
           <p className="experience-description">
-            ---
+            Ethical Hacking<br></br>Networking<br></br>Leadership<br></br>Linux
+
           </p>
           <div className="experience-image">
           <img
-          src={isHovered ? 'meetingImg.png' : 'guelphCSSImg.png'}
+          src={isHovered ? 'images/meetingImg.png' : 'images/guelphCSSImg.png'}
           alt="Team Meeting"
         />
           </div>

@@ -36,7 +36,7 @@ function Navbar() {
     <nav className={`Navbar ${navActive ? "active" : ""}`}>
       <Link to="hero_sec" spy={true} smooth={true} offset={-70} duration={500}>
         <div className="logo_image_nav">
-          <img src="/logo.png" alt="logoimage" />
+          <img src="/images/logo.png" alt="logoimage" />
         </div>
       </Link>
       <a className={`hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
@@ -47,7 +47,7 @@ function Navbar() {
       <div className={`navbar_items ${navActive ? "active" : ""}`}>
         <ul>
           <li>
-            {/* eslint-disable jsx-a11y/anchor-is-valid */}
+        
             <Link
               onClick={closeMenu}
               activeClass="navbar_active_content"
@@ -60,10 +60,10 @@ function Navbar() {
             >
               About
             </Link>
-            {/* eslint-enable jsx-a11y/anchor-is-valid */}
+        
           </li>
           <li>
-            {/* eslint-disable jsx-a11y/anchor-is-valid */}
+           
             <Link
               onClick={closeMenu}
               activeClass="active_nav"
@@ -76,10 +76,10 @@ function Navbar() {
             >
               Projects
             </Link>
-            {/* eslint-enable jsx-a11y/anchor-is-valid */}
+           
           </li>
           <li>
-            {/* eslint-disable jsx-a11y/anchor-is-valid */}
+   
             <Link
               onClick={closeMenu}
               activeClass="navbar_active_content"
@@ -92,7 +92,7 @@ function Navbar() {
             >
               Experience
             </Link>
-            {/* eslint-enable jsx-a11y/anchor-is-valid */}
+        
           </li>
         </ul>
       </div>
