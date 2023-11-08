@@ -23,6 +23,7 @@ body {
 
 .hero_sec_class {
   background-color: #1F2833;
+  margin-top: 50px; 
   padding-left: 40px;
   padding-right: 40px;
   display: grid;
@@ -72,20 +73,18 @@ body {
 
 }
 
-.hero_image > img {
-  padding-left: 40px;
-  width: 75%;
-  height: 75%;
-  border-radius: 11px; 
+.hero_image {
+  border-radius: 10px;
+  overflow: hidden; 
 }
 
 .hero_image > img {
-  border-radius: 10px;
-  opacity: 0; 
-  padding-left: 40px; 
-  width: 85%; 
-  height: auto; 
-  animation: fadeIn 1.5s ease forwards; 
+  max-width: 100%;
+  opacity: 0;
+  padding-left: 100px;
+  width: 65%;
+  height: auto;
+  animation: fadeIn 1.5s ease forwards;
 }
 
 .hero_buttons {
@@ -485,14 +484,19 @@ body {
   gap: 20px;
 }
 
-@media (max-width: 768px) {
+
+
+@media (max-width: 1000px) {
 
   .hero_sec_class {
     margin-top: 80px; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: start;
+    grid-template-columns: 1fr;
+    padding: 30px;
+    justify-content: center;
   }
 
   .hero_content {
