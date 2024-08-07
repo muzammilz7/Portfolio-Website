@@ -16,7 +16,7 @@ const skills = [
   { skill: "Docker" },
   { skill: "Linux" },
   { skill: "NMap" },
-  { skill: "Kali" },
+  { skill: "Kali Linux" },
   { skill: "WireShark" },
   { skill: "React" },
   { skill: "Pandas" },

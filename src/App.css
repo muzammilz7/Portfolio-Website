@@ -13,7 +13,7 @@ body {
   font-style: normal;
   top: 0;
   color: #C5C6C7;
-  font-size: 21px;
+  font-size: 31px;
   font-weight: 600;
   display: flex;
   line-height: 32px;
@@ -35,6 +35,32 @@ body {
 
 }
 
+.hero_sec_class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.hero_content {
+  max-width: 600px; /* Adjust as needed */
+}
+
+.hero_content_two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.hero_buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
 
 
 .hero_content {
@@ -58,7 +84,7 @@ body {
   color: #C5C6C7;
   font-weight: 700;
   line-height: 90px;
-  font-size: 55px;
+  font-size: 65px;
 }
 
 .hero_message {
@@ -69,22 +95,19 @@ body {
   font-weight: 400;
   line-height: 36px;
   color: #C5C6C7;
-  font-size: 24px;
+  font-size: 29px;
 
 }
 
-.hero_image {
-  border-radius: 10px;
-  overflow: hidden; 
-}
+
 
 .hero_image > img {
-  max-width: 100%;
   opacity: 0;
   padding-left: 100px;
-  width: 65%;
+  width: 85%;
   height: auto;
   animation: fadeIn 1.5s ease forwards;
+  max-width: 100%;
 }
 
 .hero_buttons {
@@ -155,35 +178,16 @@ body {
 }
 
 .about_class {
-  padding-left: 40px;
-  display: grid;
-  padding: 133.3px 85.3px;
-  gap: 114.6px;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: start;
-  padding-right: 40px;
-}
-
-.about_hero ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
-}
-
-.about_hero li {
-  font-size: 18px;
-  color: #C5C6C7;
-  margin: 10px 0;
-  border: 2px solid #C5C6C7;
-  padding: 10px;
-  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
- 
+  padding: 50px; /* Adjust the padding as needed */
+  max-width: 1px; /* Adjust the maximum width as needed */
+  margin: auto; /* Center the about_class within the page */
+  
 }
-
 
 
 .Navbar {
@@ -229,6 +233,10 @@ body {
   align-items: center;
 }
 
+.about_sec_class{
+  display:flex;
+  justify-content: center;
+}
 .active_nav {
   color: #66FCF1;
 }
@@ -265,12 +273,11 @@ body {
 }
 
 .about_class {
-  padding-left: 30px;
-  padding-right: 30px;
+ 
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(2, 1fr);
-  align-items: start;
+
 }
 
 .about_hero ul {
@@ -516,10 +523,9 @@ body {
 
   .hero_image {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    border-radius: 10px;
     padding: 0;
     margin: 0 auto;
-
     text-align: center;
   }
 
@@ -538,7 +544,7 @@ body {
 
   .hero_image {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    border-radius: 10px;
     padding-left: 0;
     text-align: center;
   }
@@ -561,7 +567,11 @@ body {
     text-align: center;
   }
 
+  .hero_image{
+    border-radius: 10px;
+  }
   .hero_image > img {
+    border-radius: 10px;
     padding-left: 0;
     margin: 0 auto; 
     display: block; 
@@ -651,9 +661,7 @@ body {
     margin: 8px 0;
   }
 
-  .about_sec_info {
-   
-  }
+
 }
 
 @media (max-width: 780px) {
